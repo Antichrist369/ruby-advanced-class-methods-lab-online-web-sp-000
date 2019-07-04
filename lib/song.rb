@@ -24,7 +24,6 @@ class Song
   
   def self.create_by_name(include)
     song = self.name  
-    song.new
   end 
 
 end
