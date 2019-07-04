@@ -63,5 +63,9 @@ class Song
     song.artist_name = result.artist_name 
     song 
   end 
+  
+  def self.destory 
+    @@all = clear.all 
+  end
 
 end
