@@ -23,7 +23,7 @@ class Song
   end 
   
   def self.create_by_name(include)
-    song.name = ("blank space")  
+    song.name = (" ")  
   end 
 
 end
