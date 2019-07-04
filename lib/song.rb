@@ -34,7 +34,7 @@ class Song
   end 
   
   def self.find_or_creat_by_name(title) 
-    return = self.song.matching
+    return = self.matching
   end 
 
 end
