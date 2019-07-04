@@ -23,7 +23,9 @@ class Song
   end 
   
   def self.create_by_name 
-    
+    song = self.name 
+    song.all.include << song 
+    song
   end 
 
 end
