@@ -29,8 +29,9 @@ class Song
   end 
   
   def self.find_by_name 
-    song = self.create 
+    song = self.find 
     song.find 
+    @@all != song.name
   end 
 
 end
