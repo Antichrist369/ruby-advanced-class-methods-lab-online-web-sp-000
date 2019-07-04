@@ -11,7 +11,7 @@ class Song
   end
   
   def self.create 
-    @@all.save << self
+    @@all.each << self
   end 
 
 end
