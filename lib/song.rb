@@ -22,7 +22,7 @@ class Song
     song
   end 
   
-  def self.create_by_name 
+  def self.create_by_name(include)
     song.save = self.name  
     song.all.include << song 
     song.new
