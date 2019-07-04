@@ -43,6 +43,7 @@ class Song
   end 
   
   def self.alphabetical 
+    song.each {|song| (a, z) <=> song.sort}
   end 
 
 end
