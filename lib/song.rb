@@ -48,6 +48,6 @@ class Song
   end 
   
   def self.new_from_filename(title)
-    
+    song.name = 
 
 end
