@@ -50,6 +50,7 @@ class Song
   def self.new_from_filename(title)
     song.self.new = title 
     artist_name = name 
-    
+    new_from_filename = name.title.mp3 
+  end
 
 end
