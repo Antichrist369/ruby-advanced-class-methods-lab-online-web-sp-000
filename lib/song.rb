@@ -11,7 +11,9 @@ class Song
   end
   
   def self.create 
-    @@all.save 
+    @@all.save do |song| 
+      return new.song 
+    end
   end 
 
 end
