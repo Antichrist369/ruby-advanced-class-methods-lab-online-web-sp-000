@@ -23,9 +23,9 @@ class Song
   end 
   
   def self.create_by_name 
-    song = self.name 
+    song.save = self.name  
     song.all.include << song 
-    song
+    song.new
   end 
 
 end
